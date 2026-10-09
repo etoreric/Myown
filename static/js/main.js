@@ -1,6 +1,6 @@
 const site = {
   company: {
-    name: "Innovation",
+    name: "Ricset",
     tagline: "Creating intelligent digital products for ambitious organizations.",
     email: "aricsoftgh@gmail.com",
     phone: "+233 24 169 0006",
@@ -8,11 +8,11 @@ const site = {
     linkedin: "https://www.linkedin.com/in/eric-buatsi-b62ba3250/",
     location: "Accra · Worldwide",
     meta_description:
-      "Innovation is a strategy, design, and technology studio building software, websites, and intelligent digital experiences.",
+      "Ricset is a strategy, design, and technology studio building software, websites, and intelligent digital experiences.",
   },
   media: {
     hero_video: "https://v1.pinimg.com/videos/iht/expMp4/cc/f9/ac/ccf9ac3f96709da35790de273b0663cf_720w.mp4",
-    hero_poster: "https://images.unsplash.com/photo-1546146477-15a587cd3fcb?auto=format&fit=crop&w=1800&q=88",
+    hero_poster: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1800&q=88",
   },
   hero: {
     kicker: "Independent digital studio",
@@ -25,7 +25,7 @@ const site = {
     cta_secondary: "Explore our work",
   },
   about: {
-    eyebrow: "About the studio",
+    eyebrow: "About the Innovation",
     title: "ENGINEERING IDEAS INTO REALITY.",
     intro:
       "We are a strategy, design, and technology studio for organizations ready to move beyond ordinary.",
@@ -33,7 +33,7 @@ const site = {
       "We combine deep technical thinking with expressive design to create digital products that feel inevitable.",
   },
   footer: {
-    copyright: "© 2026 Innovation",
+    copyright: "© 2026 Ricset",
     powered_by: "Powered by Ricset · +233241690006",
   },
   service_options: [
@@ -184,6 +184,7 @@ const renderSite = () => {
         class="scrub-video"
         id="scrub-video"
         src="${site.media.hero_video}"
+        poster="${site.media.hero_poster}"
         preload="auto"
         autoplay
         loop
@@ -342,7 +343,7 @@ const renderSite = () => {
       </section>
 
       <section class="section why">
-        ${sectionHeading("Why Innovation", "TECHNOLOGY WITH PURPOSE.")}
+        ${sectionHeading("Why Ricset", "TECHNOLOGY WITH PURPOSE.")}
         <div class="why-layout">
           <div class="metric-card reveal">
             <span class="eyebrow">
