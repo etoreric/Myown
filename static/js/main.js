@@ -15,7 +15,7 @@ const site = {
     hero_poster: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1800&q=88",
   },
   hero: {
-    kicker: "Independent digital studio",
+    kicker: "Independent digital Innovations",
     eyebrow: "Strategy · Design · Engineering",
     title_line_1: "WE BUILD THE",
     title_line_2: "DIGITAL FUTURE.",
